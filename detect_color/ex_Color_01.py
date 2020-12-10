@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 # input image path
-imagePath = 'kodim23.bmp'
+imagePath = '../demo_image/kodim23.bmp'
 image = cv2.imread(imagePath)
 
 boundaries = {'B': ([0, 0, 0], [255, 0, 0]),

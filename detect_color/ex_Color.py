@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 
 # input image path
-imagePath = 'colordemo.png'
+imagePath = '../demo_image/colordemo.png'
 image = cv2.imread(imagePath)
 
 boundaries = {'B': ([0, 0, 0], [255, 0, 0]),
