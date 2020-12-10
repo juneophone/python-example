@@ -1,7 +1,7 @@
 # Python Example
 Study the example of python.
 
-## Example:
+## Detect AI:
 
 <details>
   
@@ -19,9 +19,38 @@ Study the example of python.
       <td width="50%" align="center">after</td>
     </tr>
     <tr>
-      <td width="50%" align="center"><img src="./detect_object/brid_03.jpg" width="250"></td>
+      <td width="50%" align="center"><img src="./demo_image/brid_03.jpg" width="250"></td>
       <td width="50%" align="center"><img src="./reader.images/example_result_01.jpg" width="250"></td>
     </tr>    
+  </table>
+  
+</details>
+
+## Image Process
+
+<details>
+  
+  <summary>Sketches (素描圖)</summary>
+  
+  * Result
+  
+  <table width="100%" align="center" border="0">    
+    <tr>
+      <td width="50%" align="center">Color</td>
+      <td width="50%" align="center">Gray</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><img src="./reader.images/sketches_01.png" width="300"></td>
+      <td width="50%" align="center"><img src="./reader.images/sketches_02.png" width="300"></td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">Color</td>
+      <td width="50%" align="center">Gray</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><img src="./reader.images/sketches_03.png" width="300"></td>
+      <td width="50%" align="center"><img src="./reader.images/sketches_04.png" width="300"></td>
+    </tr>
   </table>
   
 </details>
