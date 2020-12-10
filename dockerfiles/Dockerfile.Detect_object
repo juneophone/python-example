@@ -1,0 +1,12 @@
+FROM conda/miniconda3-centos7
+
+MAINTAINER Jongwaye Ou <jongwaye@gmail.com> 
+WORKDIR /home/root 
+
+RUN conda update -n base -c defaults conda &&\
+    conda install -y -c pytorch pytorch=1.7 &&\
+    conda install -y -c conda-forge imageai=2.1.5 &&\
+    conda install -y -c conda-forge tensorflow=1.14 &&\
+    conda install -y -c conda-forge opencv=3.4.1
+
+CMD ["/bin/bash"]
