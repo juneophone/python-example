@@ -1,4 +1,4 @@
-# Python AI
+# Python Example
 Study the example of python.
 
 ## Example:
@@ -7,7 +7,7 @@ Study the example of python.
   
   <summary>Detect Object</summary>
   
-  * Docker File : [Download](https://github.com/juneophone/python-ai/blob/main/dockerfiles/Dockerfile.Detect_object)
+  * Docker File : [Download](./dockerfiles/Dockerfile.Detect_object)  
   
   * Training module yolo.h5 : [Download](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
   
