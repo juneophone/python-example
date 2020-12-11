@@ -5,11 +5,12 @@ Study the example of python.
 
 <details>
   
-  <summary>Detect Object</summary>
+  <summary>Detect Object</summary>  
   
-  * File Name : [detect_object.py](./detect_ai/detect_object.py)
   * Docker File : [Download](./dockerfiles/Dockerfile.Detect_object)
-  * Training module yolo.h5 : [Download](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)  
+  * Training module yolo.h5 : [Download](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
+  
+  * File Name : [detect_object.py](./detect_ai/detect_object.py) 
   * Result
   
   <table width="100%" align="center" border="0">    
@@ -18,8 +19,32 @@ Study the example of python.
       <td width="50%" align="center">after</td>
     </tr>
     <tr>
-      <td width="50%" align="center"><img src="./demo_image/brid_03.jpg" width="250"></td>
-      <td width="50%" align="center"><img src="./reader.images/example_result_01.jpg" width="250"></td>
+      <td width="50%" align="center"><img src="./demo_image/brid_03.jpg" width="300"></td>
+      <td width="50%" align="center"><img src="./reader.images/example_result_01.jpg" width="300"></td>
+    </tr>    
+  </table>
+  
+</details>
+
+<details>
+  
+  <summary>Detect Color</summary>  
+  
+  * Docker File : [Download](./dockerfiles/Dockerfile.Detect_object)  
+  
+  * File Name : [detect_color_01.py](./detect_ai/detect_color_01.py) 
+  * Result
+  
+  <table width="100%" align="center" border="0">    
+    <tr>
+      <td width="30%" align="center">Original</td>
+      <td width="30%" align="center">Mask</td>
+      <td width="30%" align="center">Result</td>
+    </tr>
+    <tr>
+      <td width="50%" align="center"><img src="./demo_image/brid_02.jpg" width="300"></td>
+      <td width="50%" align="center"><img src="./reader.images/detect_color_01_brid_02_mask.png" width="300"></td>
+      <td width="50%" align="center"><img src="./reader.images/detect_color_01_brid_02_result.png" width="300"></td>
     </tr>    
   </table>
   
