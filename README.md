@@ -7,10 +7,9 @@ Study the example of python.
   
   <summary>Detect Object</summary>
   
-  * Docker File : [Download](./dockerfiles/Dockerfile.Detect_object)  
-  
-  * Training module yolo.h5 : [Download](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
-  
+  * File Name : [detect_object.py](./detect_ai/detect_object.py)
+  * Docker File : [Download](./dockerfiles/Dockerfile.Detect_object)
+  * Training module yolo.h5 : [Download](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)  
   * Result
   
   <table width="100%" align="center" border="0">    
@@ -32,24 +31,29 @@ Study the example of python.
   
   <summary>Sketches (素描圖)</summary>
   
+  * File Name : [sketches.py](./image_process/sketches.py)
   * Result
   
   <table width="100%" align="center" border="0">    
     <tr>
-      <td width="50%" align="center">Color</td>
-      <td width="50%" align="center">Gray</td>
+      <td width="30%" align="center">Original</td>
+      <td width="30%" align="center">Color</td>
+      <td width="30%" align="center">Gray</td>      
     </tr>
     <tr>
-      <td width="50%" align="center"><img src="./reader.images/sketches_01.png" width="300"></td>
-      <td width="50%" align="center"><img src="./reader.images/sketches_02.png" width="300"></td>
+      <td width="30%" align="center"><img src="./demo_image/brid_01.jpg" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/sketches_01.png" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/sketches_02.png" width="300"></td>      
     </tr>
     <tr>
-      <td width="50%" align="center">Color</td>
-      <td width="50%" align="center">Gray</td>
+      <td width="30%" align="center">Original</td>
+      <td width="30%" align="center">Color</td>
+      <td width="30%" align="center">Gray</td>
     </tr>
     <tr>
-      <td width="50%" align="center"><img src="./reader.images/sketches_03.png" width="300"></td>
-      <td width="50%" align="center"><img src="./reader.images/sketches_04.png" width="300"></td>
+      <td width="30%" align="center"><img src="./demo_image/brid_02.jpg" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/sketches_03.png" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/sketches_04.png" width="300"></td>
     </tr>
   </table>
   
