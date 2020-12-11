@@ -42,9 +42,9 @@ Study the example of python.
       <td width="30%" align="center">Result</td>
     </tr>
     <tr>
-      <td width="50%" align="center"><img src="./demo_image/brid_02.jpg" width="300"></td>
-      <td width="50%" align="center"><img src="./reader.images/detect_color_01_brid_02_mask.png" width="300"></td>
-      <td width="50%" align="center"><img src="./reader.images/detect_color_01_brid_02_result.png" width="300"></td>
+      <td width="30%" align="center"><img src="./demo_image/brid_02.jpg" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/detect_color_01_brid_02_mask.png" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/detect_color_01_brid_02_result.png" width="300"></td>
     </tr>    
   </table>
   
