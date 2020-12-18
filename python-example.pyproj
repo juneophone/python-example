@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f871372b-0605-4007-a3be-f86e719352f2}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="demo_image\brid_01.jpg" />
+    <Content Include="demo_image\brid_02.jpg" />
+    <Content Include="demo_image\brid_03.jpg" />
+    <Content Include="demo_image\city.jpg" />
+    <Content Include="demo_image\colordemo.png" />
+    <Content Include="demo_image\kodim23.bmp" />
+    <Content Include="reader.images\detect_color_01_brid_02_mask.png" />
+    <Content Include="reader.images\detect_color_01_brid_02_result.png" />
+    <Content Include="reader.images\example_result_01.jpg" />
+    <Content Include="reader.images\sketches_01.png" />
+    <Content Include="reader.images\sketches_02.png" />
+    <Content Include="reader.images\sketches_03.png" />
+    <Content Include="reader.images\sketches_04.png" />
+    <Content Include="temp\brid_01_output.png" />
+    <Content Include="temp\brid_01_output_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="detect_ai\detect_color.py" />
+    <Compile Include="detect_ai\detect_color_01.py" />
+    <Compile Include="detect_ai\detect_object.py" />
+    <Compile Include="image_process\sketches.py" />
+    <Compile Include="temp\ex_Color_01.py" />
+    <Compile Include="temp\filename.py" />
+    <Compile Include="temp\sketches.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="demo_image" />
+    <Folder Include="detect_ai" />
+    <Folder Include="image_process" />
+    <Folder Include="reader.images" />
+    <Folder Include="temp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
