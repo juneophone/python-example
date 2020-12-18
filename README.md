@@ -48,6 +48,22 @@ Study the example of python.
     </tr>    
   </table>
   
+  * File Name : [detect_color_02.py](./detect_ai/detect_color_02.py) 
+  * Result
+  
+  <table width="100%" align="center" border="0">    
+    <tr>
+      <td width="30%" align="center">Original</td>
+      <td width="30%" align="center">Mask</td>
+      <td width="30%" align="center">Result</td>
+    </tr>
+    <tr>
+      <td width="30%" align="center"><img src="./demo_image/brid_03.jpg" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/detect_color_02_brid_03_mask.png" width="300"></td>
+      <td width="30%" align="center"><img src="./reader.images/detect_color_02_brid_03_result.png" width="300"></td>
+    </tr>    
+  </table>
+  
 </details>
 
 ## Image Process

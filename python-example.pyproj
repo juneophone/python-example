@@ -37,7 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="detect_ai\detect_color.py" />
-    <Compile Include="detect_ai\detect_color_01.py" />
+    <Compile Include="detect_ai\detect_color_02.py" />
     <Compile Include="detect_ai\detect_object.py" />
     <Compile Include="image_process\sketches.py" />
     <Compile Include="temp\ex_Color_01.py" />
