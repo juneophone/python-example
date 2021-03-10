@@ -99,3 +99,23 @@ Study the example of python.
   </table>
   
 </details>
+
+<details>
+  
+  <summary>S-Curve</summary>
+  
+  * File Name : [s-curve_01.py](./image_process/s-curve_01.py)
+  * Result
+  
+  <table width="100%" align="center" border="0">    
+    <tr>
+      <td width="30%" align="center">k = 0.1</td>
+      <td width="30%" align="center">k = 0.05</td>         
+    </tr>
+    <tr>      
+      <td width="50%" align="center"><img src="./reader.images/s-curve_0.1.png" width="500"></td>
+      <td width="50%" align="center"><img src="./reader.images/s-curve_0.05.png" width="500"></td>      
+    </tr>    
+  </table>
+  
+</details>
