@@ -119,3 +119,21 @@ Study the example of python.
   </table>
   
 </details>
+
+<details>
+  
+  <summary>Histogram</summary>
+  
+  * File Name : [Histogram03.py](./image_process/Histogram03.py)
+  * Result
+  
+  <table width="100%" align="center" border="0">    
+    <tr>
+      <td width="100%" align="center">Histogram Of RGB Images</td>           
+    </tr>
+    <tr>      
+      <td width="100%" align="center"><img src="./reader.images/Histogram03.png"></td>
+    </tr>    
+  </table>
+  
+</details>
